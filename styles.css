@@ -331,7 +331,25 @@ section {
   margin-bottom: 25px;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
 
+.logo img {
+  height: 150px; 
+  width: auto;
+  object-fit: contain;
+}
+
+.logo img {
+  transition: 0.3s;
+}
+
+.logo:hover img {
+  opacity: 0.8;
+}
 
 /* mobile */
 @media (max-width: 768px) {

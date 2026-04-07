@@ -13,6 +13,5 @@ function reveal() {
 
 window.addEventListener("scroll", reveal);
 
-// Initial call for elements above the fold
 window.onload = reveal;
 
