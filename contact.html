@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Portfolio | Inquiry</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">N.<span>Bugarin</span></div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="work.html">Work</a></li>
+    <li><a href="about.html">About me</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="contact-section">
+  <div class="reveal contact-container">
+    
+    <div class="contact-text">
+      <p class="tag">Contact</p>
+      <h1 class="section-title">Let’s Work Together</h1>
+
+      <p class="contact-desc">
+  Got something in mind? Send me a message and I’ll get back to you.
+      </p>
+    </div>
+<form class="contact-form" action="https://formspree.io/f/mykblqvq" method="POST">
+  
+  <div class="input-group">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+  </div>
+
+  <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+  <input type="hidden" name="_next" value="thankyou.html">
+
+  <button class="btn-fancy">Send Message</button>
+</form>
+
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
