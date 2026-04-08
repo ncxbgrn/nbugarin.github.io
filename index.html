@@ -4,24 +4,28 @@
 <meta charset="UTF-8">
 <title>Portfolio | Home</title>
 <link rel="stylesheet" href="styles.css">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
 
 <nav>
-<a href="index.html" class="logo">
-  <img src="images/n.png" alt="N Bugarin Logo">
-</a>  <ul class="nav-links">
+  <a href="index.html" class="logo">
+    <img src="images/n.png" alt="Logo">
+  </a>
+
+  <ul class="nav-links">
     <li><a href="index.html" class="active">Home</a></li>
     <li><a href="work.html">Work</a></li>
-    <li><a href="about.html">About me</a></li>
+    <li><a href="about.html">About</a></li>
     <li><a href="contact.html">Contact</a></li>
   </ul>
 </nav>
 
-<section class="hero">
+<!-- HERO -->
+<section id="home" class="hero">
   <div class="hero-container">
 
-    <div class="reveal hero-left">
+    <div class="hero-left reveal">
       <p class="tag">Portfolio</p>
 
       <h1 class="hero-text">
@@ -29,19 +33,111 @@
       </h1>
 
       <p class="hero-desc">
-        Interactive Design student at SAIT, specializing in web design and development. 
-        I create clean, modern, and user-focused digital experiences.
+        I’m an Interactive Design student at SAIT focused on creating clean, modern, and user-friendly digital experiences.
       </p>
 
-      <a href="work.html" class="btn-fancy">View Work</a>
+      <div class="hero-buttons">
+        <a href="#work" class="btn-fancy">View Work</a>
+        <a href="#about" class="btn-fancy secondary">About Me</a>
+      </div>
     </div>
 
     <div class="hero-right reveal">
-      <img src="images/image 4.jpg" alt="Nicole Bugarin">
+      <img src="images/n.png" class="hero-logo">
     </div>
 
   </div>
 </section>
+
+<!-- WORK PREVIEW -->
+<section id="work">
+
+  <h2 class="section-title reveal">My Work</h2>
+
+  <div class="project-grid">
+
+    <a href="https://nclbgrn.github.io/cprg-218-final-project/" target="_blank" class="project-card reveal">
+      <img src="images/web2.jpg">
+      <div class="project-text">
+        <h2>CPRG 218 Website</h2>
+        <p>Responsive website focused on layout, spacing, and typography.</p>
+      </div>
+    </a>
+
+    <a href="https://dev.interactivedesign.ca/~nbugarin/cprg310/final/" target="_blank" class="project-card reveal">
+      <img src="images/web3.jpg">
+      <div class="project-text">
+        <h2>Interactive Project</h2>
+        <p>JavaScript-based interactive experience focused on user engagement.</p>
+      </div>
+    </a>
+
+  </div>
+
+  <div style="text-align:center; margin-top:50px;" class="reveal">
+    <a href="work.html" class="btn-fancy">View More</a>
+  </div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+
+  <div class="home-about-container">
+
+    <div class="home-about-text reveal">
+      <h2>About Me</h2>
+
+      <p>
+        I’m an Interactive Design student at SAIT who enjoys creating visually engaging and user-focused digital experiences.
+      </p>
+
+      <a href="about.html" class="btn-fancy">Read More</a>
+    </div>
+
+    <div class="home-about-image reveal">
+      <img src="images/image 4.jpg">
+    </div>
+
+  </div>
+
+</section>
+
+<section class="cta">
+  <div class="cta-box reveal">
+    <h2>Let’s Work Together</h2>
+    <p>Have a project or idea in mind? I’d love to hear from you.</p>
+    <a href="contact.html" class="btn-fancy">Contact Me</a>
+  </div>
+</section>
+
+<footer class="footer">
+
+  <div class="footer-content">
+
+    <div class="footer-left">
+      <h3>Nicole Bugarin</h3>
+      <p>Interactive Design Student</p>
+    </div>
+
+    <div class="footer-center">
+      <a href="index.html">Home</a>
+      <a href="work.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+  <div class="footer-right">
+      <a href="https://www.instagram.com/vlnnyx/" target="_blank"><i class="ri-instagram-line"></i></a>
+      <a href="https://www.linkedin.com/in/nbugarin/" target="_blank"><i class="ri-linkedin-line"></i></a>
+      <a href="https://github.com/ncxbgrn" target="_blank"><i class="ri-github-line"></i></a>
+    </div>
+
+  </div>
+
+  <p class="footer-bottom">© 2026 Nicole Bugarin. All rights reserved.</p>
+
+</footer>
 
 <script src="script.js"></script>
 </body>
